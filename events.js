@@ -3,7 +3,7 @@ const eventContainer = document.getElementById("event-container");
 const errorMessage = document.getElementById("error-message");
 
 // API endpoint (Replace with your chosen API)
-const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=New York&appid=YOUR_API_KEY";
+const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=New York&appid=8c8cb8b5746f8e6d7315bb4dda7f6bf4";
 
 // Function to fetch events from API
 async function fetchEvents() {
