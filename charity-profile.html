@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="charities-list.html">Charities List</a></li>
+            <li><a href="charity-profile.html">Charity Profile</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Charity Profile: Helping Hands Shelter</h1>
+    </header>
+    <section>
+        <h2>About Helping Hands Shelter</h2>
+        <p>Helping Hands Shelter provides shelter, meals, and employment assistance to those in need. With a team of dedicated staff and volunteers, we work tirelessly to bring hope and stability to individuals experiencing homelessness.</p>
+    </section>
+    <section>
+        <h2>Volunteer with Us!</h2>
+        <button id="volunteer-btn">Volunteer Now</button>
+        <div id="volunteer-form-container" style="display: none;">
+            <form id="volunteer-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <script src="charity_profile.js"></script>
+</body>
+</html>

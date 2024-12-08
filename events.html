@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Volunteer Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="charities-list.html">Charities List</a></li>
+            <li><a href="charity-profile.html">Charity Profile</a></li>
+            <li><a href="events.html">Events</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Upcoming Volunteer Events</h1>
+        <p>Explore local events and opportunities to give back to your community.</p>
+    </header>
+    <section id="events-section">
+        <h2>Event List</h2>
+        <div id="event-container">
+            <!-- Events will be dynamically loaded here -->
+        </div>
+        <p id="error-message" style="color: red; display: none;">Unable to fetch events at this time. Please try again later.</p>
+    </section>
+    <script src="events.js"></script>
+</body>
+</html>
