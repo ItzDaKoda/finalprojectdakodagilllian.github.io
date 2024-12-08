@@ -2,12 +2,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Consistent font */
     color: #333;
     text-align: center; /* Center all text */
     background: none; /* Remove background directly from body */
     position: relative;
 }
+
 /* Background Image with Full Blur */
 body::before {
     content: "";
@@ -81,6 +82,7 @@ section {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Ensure content in sections is centered */
 }
 
 /* Buttons */
@@ -103,7 +105,7 @@ button:hover {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center the form elements */
     gap: 10px;
 }
 
@@ -125,8 +127,8 @@ form button {
 }
 
 /* Event Cards */
-#event-container .event {
-    text-align: left; /* Adjust individual event alignment */
+#event-container {
+    text-align: center; /* Ensure event content is centered */
 }
 
 .event h3 {
@@ -146,6 +148,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 14px;
+    text-align: center; /* Ensure footer text is centered */
 }
 
 /* Media Queries */
