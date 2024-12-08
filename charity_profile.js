@@ -14,7 +14,7 @@ const additionalDetails = document.createElement("p");
 additionalDetails.textContent = "We have been supporting the community for over 10 years. Join us to make an impact!";
 additionalDetails.style.display = "none";
 additionalDetails.style.fontSize = "14px";
-additionalDetails.style.color = "#555";
+additionalDetails.style.color = "#255";
 
 // Append additional details to the header
 charityHeader.parentElement.appendChild(additionalDetails);
